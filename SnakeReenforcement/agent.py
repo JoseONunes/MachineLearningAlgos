@@ -7,7 +7,7 @@ from model import Linear_QNet, QTrainer
 from helper import plot
 
 MAX_MEMORY = 100_000
-BATCH_SIZE = 1000
+BATCH_SIZE = 100
 LR = 0.001
 
 class Agent:
